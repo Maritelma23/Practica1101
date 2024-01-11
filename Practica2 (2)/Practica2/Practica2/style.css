@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-icon, .options {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    margin-right: 20px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.info-section {
+    flex: 1;
+    padding: 10px;
+    margin: 2px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box; 
+}
+
+.info-section .ellipsis-options {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.red-box {
+    background-color: #E74C3C;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.container {
+    position: relative; 
+}
+
+.expand-button-container {
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+}
+
+.expand-button {
+    cursor: pointer;
+    font-size: 24px; 
+    color: #2013cf;
+    background-color: #ece9e9;
+    padding: 10px 20px; 
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+}
